@@ -1,0 +1,263 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Old+Standard+TT';
+
+/* fonts and setup */
+
+h1 {
+  color: #FFBA00;
+  font-size: 200px;
+  line-height: 150px;
+  margin:0;
+}
+
+h2 {
+  font-size: 40px;
+  padding-left: 35px;
+}
+
+body {
+  background-color: #001C30;
+  margin:0;
+}
+
+.dkb {
+  color: #001C30;
+}
+
+.seag {
+  color: #ADF0A1;
+}
+
+.ylw {
+  color: #FFBA00;
+}
+
+.ltg {
+  color: #eee;
+}
+
+.dkg {
+  color: #222;
+}
+
+.clear {
+  clear: both;
+}
+
+.fco {
+  font-family: "fjalla one", sans-serif;
+}
+
+.ost {
+  font-family: "old standard tt", serif;
+}
+
+li .ost {
+  font-size: 0.8em;
+  line-height: 0.6em;
+}
+
+
+/* base container and top information */
+
+.container {
+  background-color: #001C30;
+  border: 20px solid #ADF0A1;
+  padding: 150px 50px;
+  height: 100%;
+  overflow: auto;
+}
+
+
+/* image */
+
+#self {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  display: none;
+}
+
+#self img {
+  max-width: 200px;
+  border: 20px solid #adf0a1;
+}
+
+#self.show {
+  display: block !important;
+}
+
+#top:hover #self {
+  display: block;
+}
+
+
+/* row 2 */
+
+.thirds {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.thirds .inr {
+  float: left;
+  width: 29%;
+  padding: 0 2%;
+  display: block;
+}
+
+.thirds .inr p {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.thirds .inr h3 {
+  color: #eee;
+  font-family: "fjalla one", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+  border-bottom: 8px solid #adf0a1;
+}
+
+.thirds .inr ul li {
+  font-size: 24px;
+  font-family: "fjalla one", sans-serif;
+  color: #ffba00;
+}
+
+hr {
+  width: 80%;
+  margin: 100px auto;
+  height: 15px;
+  background-color: #eee;
+  border:0;
+}
+
+
+/* form */
+
+.worktogether {
+  font-size: 100px;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.form p {
+  font-size: 36px;
+  color: #eee;
+  margin: 50px auto;
+}
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 3px solid #adf0a1;
+  font-family: "fjalla one", sans-serif;
+  color: #adf0a1;
+  font-size: 40px;
+}
+
+input:focus {
+  outline:0;
+}
+
+#submitb {
+  font-size: 30px;
+  color: #ffba00;
+  border: 3px solid #ffba00;
+  padding: 10px 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+#submitb:hover {
+  background-color: #ffba00;
+  color: #001c30;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+
+#quote.show {
+  display: block !important;
+}
+
+#quote {
+  width: 50%;
+  padding: 30px;
+  margin:0 auto;
+  display: none;
+}
+
+#quote p {
+  margin-top:0;
+  font-size: 22px;
+}
+
+
+/* bottom */
+
+.bottom {
+  position: fixed;
+  background-color: #adf0a1;
+  bottom:0;
+  width: 100%;
+  padding: 20px;
+}
+
+.bottom i {
+  color: #222;
+}
+
+.btm1,
+.btm2,
+.btm3 {
+  display: inline;
+  font-family: "fjalla one", sans-serif;
+}
+
+.btm2, .btm3 {
+  margin-left: 100px;
+}
+
+.btmlist,
+.btmlist li {
+  display: inline-block;
+}
+
+.btmlist {
+  padding: 0 0 0 5px;
+}
+
+.btmlist li {
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-family: "fjalla one", sans-serif;
+  letter-spacing: 1px;
+}
+
+.btmlist li a {color: #222;}
+.btmlist li a:hover {color: #001c30;}
+
+.btmct {width: 80%; margin: 0 auto;}
+
+@media (max-width: 800px) {
+  .inr {
+    width: 100% !important;
+  }
+
+  #self {
+    display: none;
+  }
+  
+  .btm1,
+  .btm2,
+  .btmlist,
+  .btmlist li {
+    display: block;
+    margin:0;
+  }
+}
