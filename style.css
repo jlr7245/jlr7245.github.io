@@ -16,7 +16,7 @@ h2 {
 
 body {
   background-color: #001C30;
-  margin:0;
+  margin:0 0 100px 0;
 }
 
 .dkb {
@@ -61,10 +61,14 @@ li .ost {
 
 .container {
   background-color: #001C30;
-  border: 20px solid #ADF0A1;
-  padding: 150px 50px;
+  /* border: 20px solid #ADF0A1; */
+  padding: 50px 50px;
   height: 100%;
   overflow: auto;
+}
+
+.pgtop {
+  padding-top: 200px;
 }
 
 
@@ -198,6 +202,62 @@ input:focus {
 }
 
 
+/* project setup */
+.project {
+  width: 80%;
+  margin: 0 auto;
+  height: 120px;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.over {
+  background: rgba(0,0,0,.9);
+  opacity: 0.5;
+  -webkit-transition: opacity .25s ease;
+  height: 100%;
+}
+
+.inr {
+  padding: 25px 50px;
+  vertical-align: center;
+}
+
+.project:hover .over {
+  opacity: 1;
+}
+
+.projecttitle {
+  font-family: "old standard tt";
+  color: white;
+  font-size: 45px;
+  display: inline-block;
+  float: left;
+  border-bottom: 5px solid #ADF0A1;
+}
+
+.projectdate {
+  float: right;
+  font-family: 'fjalla one';
+  color: #FFBA00;
+  line-height: 65px;
+}
+
+/* project background */
+.prsp {
+  background-image: url('images/pj-psp.jpg');
+}
+
+.agency {
+  background-image: url('images/pj-agency.jpg');
+}
+
+.callcongress {
+  background-image: url('images/pj-callcongress.jpg');
+}
+
 /* bottom */
 
 .bottom {
@@ -243,6 +303,25 @@ input:focus {
 .btmlist li a:hover {color: #001c30;}
 
 .btmct {width: 80%; margin: 0 auto;}
+
+/* fixing the border */
+#topbr, #left, #right {
+	background: #ADF0A1;
+	position: fixed;
+	}
+
+  #left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#topbr {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
 
 @media (max-width: 800px) {
   .inr {

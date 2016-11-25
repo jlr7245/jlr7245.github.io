@@ -8,12 +8,15 @@
 
 <body>
   <title>JLR</title>
-  <div class="container">
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="topbr"></div>
+  <div class="container pgtop">
     <div id="top">
-    <h1 class="ylw ost">J<span class="ltg astrx">*</span> Riley</h1>
-    <h2 class="ltg fco"><span class="ylw">*</span>My married name is J Silverstein, but I use Riley professionally.</h2>
+      <h1 class="ylw ost">J<span class="ltg astrx">*</span> Riley</h1>
+      <h2 class="ltg fco"><span class="ylw">*</span>My married name is J Silverstein, but I use Riley professionally.</h2>
 
-    <div id="self"><img src="http://test.rogue.flights/wp-content/uploads/2016/09/self.jpg"></div>
+      <div id="self"><img src="http://test.rogue.flights/wp-content/uploads/2016/09/self.jpg"></div>
     </div>
     
     <div class="thirds">
@@ -44,6 +47,40 @@
     <div class="clear">&nbsp;</div>
  </div>
  
+ <div class="container">
+   
+   <h2 style="text-align:center" class="seag ost">Recent Projects</h2>
+   
+  <div class="project callcongress">
+    <div class="over">
+      <div class="inr" onClick="location.href='congress.html'">
+        <span class="projecttitle">Call Congress</span>
+        <span class="projectdate">November 2016</span>
+      </div>
+    </div>
+  </div>
+  
+   
+   <div class="project prsp">
+     <div class="over">
+       <div class="inr" onClick="location.href='paraspaces.html'">
+          <span class="projecttitle">Paraspaces Conference 2016</span>
+          <span class="projectdate">October 2016</span>
+        </div>
+    </div>
+   </div>
+   
+  <div class="project agency">
+    <div class="over">
+      <div class="inr" onClick="passWord()">
+        <span class="projecttitle">Agency Work</span>
+        <span class="projectdate">2012-2016</span>
+      </div>
+    </div>
+  </div>
+   
+ </div>
+ 
  <div class="bottom">
    <div class="btmct">
    <div class="btm1">
@@ -67,5 +104,25 @@
    </div>
  </div>
  
+ <script>
+function passWord() {
+  var testV = 1;
+  var pass1 = prompt('Please Enter Your Password',' ');
+  while (testV < 3) {
+    if (!pass1)
+    history.go(0);
+    if (pass1.toLowerCase() == "agency99823") {
+      location.href='agency.html';
+      break;
+    }
+    testV+=1;
+    var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+  if (pass1.toLowerCase()!="password" & testV ==3)
+  history.go(0);
+  return " ";
+}
+
+ </script>
  
 </body>
