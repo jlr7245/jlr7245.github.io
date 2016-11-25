@@ -11,7 +11,7 @@ I have actually been working on this on and off for a while -- another version o
 ### CSS
 
 - The border took me some time; I had to look on [CSStricks](https://css-tricks.com/body-border/) for the correct method. Using `body {border:15px solid seagreen}` created a border around just the area with content, instead of covering the full window.
-- I'm familiar and comfortable with CSS, so I did what I usually do when I'm working from scratch: wrote the CSS first and then figured out the structure of the HTML.
+
 
 
 ### Javascript
