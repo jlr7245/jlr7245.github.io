@@ -78,8 +78,9 @@ li .ost {
   position: absolute;
   top: 150px;
   left: 200px;
-  display: none;
-  -webkit-transition: .25s ease;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
 }
 
 #self img {
