@@ -62,9 +62,10 @@ li .ost {
 .container {
   background-color: #001C30;
   /* border: 20px solid #ADF0A1; */
-  padding: 50px 50px;
+  padding: 50px 0;
   height: 100%;
   overflow: auto;
+  width: 80%;
 }
 
 .pgtop {
@@ -205,7 +206,7 @@ input:focus {
 .project {
   width: 80%;
   margin: 0 auto;
-  height: 120px;
+  height: 180px;
   background-size: cover;
   background-position: center center;
   cursor: pointer;
@@ -309,18 +310,20 @@ input:focus {
 	position: fixed;
 	}
 
-  #left, #right {
+#left, #right {
 		top: 0; bottom: 0;
 		width: 20px;
 		}
-		#left { left: 0; }
-		#right { right: 0; }
 		
-	#topbr {
+#left { left: 0; }
+#right { right: 0; }
+		
+#topbr {
 		left: 0; right: 0;
 		height: 20px;
 		}
-		#top { top: 0; }
+		
+#topbr { top: 0; }
 
 @media (max-width: 800px) {
   .inr {
