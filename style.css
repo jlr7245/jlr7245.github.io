@@ -79,6 +79,7 @@ li .ost {
   top: 150px;
   left: 200px;
   display: none;
+  -webkit-transition: .25s ease;
 }
 
 #self img {
@@ -86,9 +87,6 @@ li .ost {
   border: 20px solid #adf0a1;
 }
 
-#self.show {
-  display: block !important;
-}
 
 #top:hover #self {
   display: block;
