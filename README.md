@@ -26,3 +26,4 @@ The password protection for the "Agency" project is borrowed from [Javascript Ki
 - Add short detail blurbs to portfolio previews
 - Add dedicated project pages
 - Figure out what goes in the center of the bottom menu
+- Add contact form
