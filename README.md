@@ -18,7 +18,7 @@ I have actually been working on this on and off for a while -- another version o
 
 I utilized some Javascript in the project links -- rather than attempting to apply an href to a whole div or leaving just the project name clickable, it seemed more user-friendly to set up the whole div with an `onClick()` function. It doesn't seem to fire on first click all the time, though.
 
-The password protection for the "Agency" project is borrowed from [Javascript Kit](http://www.javascriptkit.com/script/cut10.shtml) with some minor modifications.
+The password protection for the "Agency" project is borrowed from [Javascript Kit](http://www.javascriptkit.com/script/cut10.shtml) with some minor modifications. It's not secure at all, so it's just a temporary measure until I learn something better.
 
 ## What's Next?
 
