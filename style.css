@@ -66,6 +66,7 @@ li .ost {
   height: 100%;
   overflow: auto;
   width: 80%;
+  margin: 0px auto;
 }
 
 .pgtop {
