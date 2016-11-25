@@ -23,5 +23,6 @@ The password protection for the "Agency" project is borrowed from [Javascript Ki
 ## What's Next?
 
 - Redo the portfolio previews as I'm not 100% happy with the look - but I don't want the ordinary boxes either. Maybe it's a matter of cropping the representative images differently.
+- Add short detail blurbs to portfolio previews
 - Add dedicated project pages
-- Figure out what goes in the center of the
+- Figure out what goes in the center of the bottom menu
