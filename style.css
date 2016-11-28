@@ -309,6 +309,7 @@ input:focus {
 #topbr, #left, #right {
 	background: #ADF0A1;
 	position: fixed;
+	z-index:500;
 	}
 
 #left, #right {
