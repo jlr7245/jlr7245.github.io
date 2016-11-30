@@ -342,6 +342,8 @@ input:focus {
   .btmlist li {
     display: block;
     margin:0;
+    text-align:left;
+    width:100%;
   }
   
   .projectdate {float: none; display: block;}
