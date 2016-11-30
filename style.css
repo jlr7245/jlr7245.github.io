@@ -345,7 +345,7 @@ input:focus {
   }
   
   .projectdate {float: none; display: block;}
-  .projecttitle {display: block; font-size: 18px; float: none; width: 80%;}
+  .projecttitle {display: block; font-size: 22px; float: none; width: 80%;}
   .project {height: auto;}
   .inr {padding: 25px;}
 }
