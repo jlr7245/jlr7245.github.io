@@ -327,7 +327,7 @@ input:focus {
 		
 #topbr { top: 0; }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .inr {
     width: 100% !important;
   }
@@ -343,4 +343,9 @@ input:focus {
     display: block;
     margin:0;
   }
+  
+  .projectdate {float: none; display: block;}
+  .project-title {display: block; font-size: 18px;}
+  .project {height: auto;}
+  .inr {padding: 25px;}
 }
