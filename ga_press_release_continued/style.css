@@ -67,6 +67,11 @@ body {
   margin-top: 5px;
 }
 
+.logotop, .nametop {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 
 /*Content setup*/
 .content {
@@ -198,13 +203,13 @@ img {max-width: 100%;}
   .container {
     width: 95%;
   }
-  
+
   .col, .side, .content {
     float: clear;
     width: auto;
     display: block;
   }
-  
+
   .side {
     border: 0 solid black;
   }
