@@ -70,7 +70,9 @@ body {
 .logotop, .nametop {
   display: table-cell;
   vertical-align: middle;
+  float:left;
 }
+
 
 
 /*Content setup*/
