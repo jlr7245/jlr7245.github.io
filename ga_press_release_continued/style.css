@@ -1,0 +1,213 @@
+/*Body setup*/
+body {
+  font-size: 16px;
+  margin: 0;
+  background-color: #eee;
+  font-family: arimo;
+  background-image: url("hero.png");
+  background-size:cover;
+}
+
+
+/*Font setup*/
+.arm {font-family: 'Arimo', Sans-Serif;}
+.osw {font-family: 'Oswald', serif;}
+.frm {font-family: 'Fira Mono', Monospace;}
+
+.ga:after {
+  height: 16px;
+  width: 16px;
+  background-image: url("logo.png");
+  background-size:cover;
+  display:inline-block;
+  margin:2px;
+  content:" ";
+}
+
+
+/*Container setup*/
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 120px auto;
+  border: 1px solid #ddd;
+  background-color: white;
+  display:block;
+}
+
+
+/*Color setup*/
+.red {color: #CF4948;}
+.redb {background-color: #CF4948;}
+
+
+/*Main & head setup*/
+.logotop {
+  max-height: 150px;
+}
+
+.head {
+  padding: 50px 7% 0;
+}
+
+.subcont {
+  margin-bottom: 50px;
+  padding: 0 7%;
+}
+
+.location {
+  margin: 70px 0 5px 0;
+  text-indent: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.header {
+  margin-top: 5px;
+}
+
+
+/*Content setup*/
+.content {
+  width: 60%;
+  padding: 1%;
+  display: block;
+  float:left;
+}
+
+.content ul { /* some of this is from the reset CSS */
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style:none;
+	font-family: "fira mono";
+	text-align:center;
+}
+
+.content ul li {
+  color:white;
+  background-color:#CF4948;
+  border-radius:10px;
+  display:inline-block;
+  padding:3px 12px;
+  margin:5px;
+  border-bottom: 2px solid #A20101;
+}
+
+
+/*Side Setup*/
+.side {
+  width: 30%;
+  padding: 3%;
+  display: block;
+  float:right;
+  border-left: 1px solid #ddd;
+}
+
+.side p {
+  font-size: 1.3em;
+}
+
+.side > h3 {
+  font-size: 1.5em;
+  color: #CF4948;
+}
+
+
+/*Footer Setup*/
+
+
+/*Columns setup*/
+.col {
+  width: 30%;
+  /*float: left;*/
+  padding: 3%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.col img {
+  width: 80%;
+  display:block;
+  margin: 0px auto;
+  max-width:300px;
+}
+
+.col ul li {
+  line-height: 2em;
+}
+
+.col:nth-of-type(2) {
+  background-color: #ddd;
+}
+
+.col:first-of-type {
+  border-top: 1px solid #ddd;
+}
+
+.col:nth-of-type(3) {
+  background-color: #CF4948;
+  text-align: center;
+  color:white;
+  padding: 15px;
+}
+
+.linktosite {
+  font-size: 1.2em;
+  border: 5px solid white;
+  background:none;
+  color:white;
+  border-radius:20px;
+  outline:none;
+  box-shadow:none;
+  padding:5px 10px;
+  font-family: "fira mono", monospace;
+}
+
+.linktosite:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.linktosite a {
+  color: white;
+  text-decoration:none;
+}
+
+.side .linktosite a {
+  color:#CF4948;
+}
+.side .linktosite {
+  border-color: #CF4948;
+}
+
+
+/*Assorted*/
+
+.clear {clear:both;}
+img {max-width: 100%;}
+
+
+
+/* smaller screens */
+@media screen and (max-width: 1000px) {
+
+
+  .container {
+    width: 95%;
+  }
+  
+  .col, .side, .content {
+    float: clear;
+    width: auto;
+    display: block;
+  }
+  
+  .side {
+    border: 0 solid black;
+  }
+
+
+}
