@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hangman!</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata|Poppins" rel="stylesheet">
+	</head>
+	<body>
+	  <div class="container">
+	    <header>
+	      <h1 class="pop">Hangman</h1>
+	      <button class="start" onClick="startTheHangman()">Start over!</button>
+	    </header>
+	    <main>
+<!--	      <div class="theimage">
+	        <img src="1.jpg">
+	      </div>-->
+	      <div class="render">
+	        <h3>Try to fill in the correct letters!</h3>
+	        <p id="renderp" class="incs"></p>
+	        <div class="guessbox">
+	          <input id="theguess" type="text" name="theguess" placeholder="Guess a letter!">
+	          <button id="guessbutton" onClick="guessButton()">Guess it!</button>
+	          <p id="guessmessage"></p>
+	        </div>
+	      </div>
+	    </main>
+	  </div>
+		<script src="src/letter.js"></script>
+		<script src="src/word.js"></script>
+		<script src='src/game.js'></script>
+		<script src="src/app.js"></script>
+	</body>
+</html>
