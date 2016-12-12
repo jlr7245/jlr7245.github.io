@@ -4,6 +4,7 @@ console.log('app.js is connected!');
 
 var renderPara = document.getElementById('renderp');
 var guessMessage = document.getElementById('guessmessage');
+var overMsg = document.getElementById('overmessage');
 let game = new Game();
 
 let possiblePhrases = [
@@ -28,12 +29,15 @@ function startTheHangman() {
   let thePhrase = possiblePhrases[Math.floor(Math.random() * possiblePhrases.length)];
   game.startGame(thePhrase);
   renderPara.innerHTML = game.currentWord.render();
+  overMsg.innerHTML = "";
+  guessMessage.innerHTML = "";
 }
 
 function guessButton() {
   let guessVal = document.getElementById('theguess').value;
   guessMessage.innerHTML = game.guess(guessVal);
   renderPara.innerHTML = game.currentWord.render();
+  if (game.isOver() === true) overMsg.innerHTML = game.overMessage();
 }
 
 window.onload = function() {
