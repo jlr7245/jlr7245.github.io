@@ -8,7 +8,7 @@ class Word {
   this.letters = []; /// our blank array 
   this.getLetters(); /// okay, this is a little tricky. when you create the word object you want the getLetters function below to run automatically, otherwise there's going to be an intermediate step. see line 48 of game.js for more discussion
   }
-  new() { /// left this guy blank bc i didn't need it
+  new() { /// left this guy blank bc i didn't need it to do anything special
   }
   
   getLetters() { /// here is our getLetters function.
