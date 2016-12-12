@@ -2,7 +2,7 @@ console.log('letter.js is connected');
 
 class Letter {
   /// attributes of letter class
-  constructor(value, hidden) { /// accepts a "value" argument. i also stuck 'hidden' up here but probably isn't necessary
+  constructor(value) { /// accepts a "value" argument
     this.value = value; 
     this.hidden = true;
   }
