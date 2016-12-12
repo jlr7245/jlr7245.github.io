@@ -12,8 +12,10 @@ let possiblePhrases = [
   "Does this Aleph exist in the heart of a stone?",
   "The city, however, does not tell its past, but contains it like the lines of a hand.",
   "O God, I could be bounded in a nut shell and count myself a king of infinite space, were it not that I have bad dreams.",
-  "Though my soul may set in darkness, it will rise in perfect night / I have loved the stars too fondly to be fearful of the night.",
-  "For most of us, this is the aim / Never here to be realized; / Who are only undefeated / Because we have gone on trying..."
+  "Though my soul may set in darkness, it will rise in perfect light / I have loved the stars too fondly to be fearful of the night.",
+  "For most of us, this is the aim / Never here to be realized; / Who are only undefeated / Because we have gone on trying...",
+  "Others have seen what is and asked why. I have seen what could be and asked why not?",
+  "Who are we, who is each one of us, if not a combinatoria of experiences, information, books we have read, things imagined?"
   ];
   
 
