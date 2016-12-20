@@ -17,10 +17,6 @@ xhrRequest.onreadystatechange = function() {
   }
   console.log(parsedData);
   getUserPhotos(parsedData);
-  let userArray = document.getElementsByTagName('li');
-  for (let user of userArray) {
-    user.addEventListener('click', getTheInfo);
-  }
 };
 xhrRequest.send();
 
@@ -29,6 +25,7 @@ function getUserPhotos(xhr) {
     let newPic = document.createElement('li');
     newPic.innerHTML = `<img src="${xhr[obj].avatar}" alt="${xhr[obj].first_name} ${xhr[obj].last_name}" data-numb="${obj}">`;
     picList.appendChild(newPic);
+    newPic.addEventListener('click', getTheInfo);
   }
 }
 
